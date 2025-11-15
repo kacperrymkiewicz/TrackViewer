@@ -3,13 +3,12 @@ import { Point } from 'ol/geom';
 
 export type LonLat = [number, number];
 
-export type IncidentType = 'INSIDE' | 'OUTSIDE';
+export type IncidentType = 'Inside' | 'Outside';
 
 export interface IncidentPayload {
   latitude: number;
   longitude: number;
-  type: IncidentType;
-  timestamp: string;
+  incidentType: IncidentType;
 }
 
 export interface LapData {

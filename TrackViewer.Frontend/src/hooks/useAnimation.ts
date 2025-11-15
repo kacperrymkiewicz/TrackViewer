@@ -52,11 +52,12 @@ export const useAnimation = ({
 
     if (trackPolygon) {
       const isInside = trackPolygon.intersectsCoordinate(fromLonLat(start));
-      const type: IncidentType = isInside ? 'INSIDE' : 'OUTSIDE';
+      const type: IncidentType = isInside ? 'Inside' : 'Outside';
       
+      saveIncident(start, type);
+
       if (!isInside) {
          console.warn(`Wykryto zjechanie z toru (Punkt ${idx})`);
-         saveIncident(start, type);
       }
     }
 
