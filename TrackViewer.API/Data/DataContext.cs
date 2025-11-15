@@ -9,6 +9,6 @@ namespace TrackViewer.API.Data
         {
         }
 
-        public DbSet<TrackEvent> TrackEvents { get; set; }
+        public DbSet<TrackEvent> TrackEvents => Set<TrackEvent>();
     }
 }
