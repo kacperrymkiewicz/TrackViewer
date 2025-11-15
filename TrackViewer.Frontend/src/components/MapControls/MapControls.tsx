@@ -32,7 +32,6 @@ export const MapControls: React.FC<MapControlsProps> = ({
           type="number"
           value={delayMs}
           onChange={e => onDelayChange(Number(e.target.value) || 0)}
-          disabled={running}
         />
       </label>
 
