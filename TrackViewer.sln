@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrackViewer.API", "TrackViewer.API\TrackViewer.API.csproj", "{129A7995-BC2D-47BE-8EFD-BD6C9D418530}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{129A7995-BC2D-47BE-8EFD-BD6C9D418530}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{129A7995-BC2D-47BE-8EFD-BD6C9D418530}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{129A7995-BC2D-47BE-8EFD-BD6C9D418530}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{129A7995-BC2D-47BE-8EFD-BD6C9D418530}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F87868D3-BE0F-4DA6-9430-0832F53090F8}
+	EndGlobalSection
+EndGlobal
